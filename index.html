@@ -1,23 +1,42 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICE-HUB</title>
+    <title>ICE HUB</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <script text="text/javascript" src="main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    
+    <script text="text/javascript" src="main.js"></script>
 </head>
 <body>
-    <h1>Je suis le maitre</h1>
-    <script>salut()</script>
+    <!-- https://www.youtube.com/watch?v=ozE-YFiaVPU -->
     <!-- HEADER -->
-    <header><h1>salut la street</h1></header>
-    <!-- MAIN -->
-    <main></main>
-    <!-- FOOTER -->
-    <footer></footer>
+    <header>
+        <a href="index.html"><h1>ICE HUB</h1></a>
+    </header>
+    <section id="content">
+        <span class="slide">
+            <a href="#" onclick="openSlideMenu()"><i id="burgermenu" class="fas fa-bars"></i></a>
+        </span>
+        <div id="menu" class="nav">
+            <a href="#" class="close" onclick="closeSlideMenu()"><i class="fas fa-times"></i></a>
+            <a href="#">Mon compte</a>
+            <a href="#">Jeux</a>
+            <a href="#">Streaming</a>
+            <a href="#">Réseaux</a>
+            <a href="#">Document</a>
+            <a href="#">Espace travail</a>
+        </div>
+        <article id="account">
+            <a href="#">Voir mon profil</a>
+            <a href="#">Paramètre</a>
+            <a href="#">Se déconnecter</a>
+        </article>
+        <article id="jeux"></article>
+        <article id="streaming"></article>
+        <article id="document"></article>
+        <article id="work"></article>
+    </section>
 </body>
 </html>
