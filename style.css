@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color:  #369FFF;
+    height: 50px;
+    text-align: center;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    color:wheat;
+}
+/* MENU */
+.menu {
+    width: 480px;
+    border: 1px solid black;
+    height: calc(100vh - 50px);
+    background-color: rgb(54,57,63);
+    font-size: 34px;
+}
+
+    /* themes */
+.themes {
+    font-family: "Alegreya Sans", sans-serif;
+    height: 60px;
+    display: flex;
+    flex-flow: nowrap row;
+    overflow-x: auto;
+}
+
+.theme {
+    padding: 5px 22px;
+    border: 1px solid black;
+}
+
+.theme a {
+    text-decoration: none;
+    color: white;
+}
+
+.theme a:hover {
+    color: #369FFF;
+}
+
+    /* menu_container */
+.menu_container {
+    font-family: "Oswald", sans-serif;
+    height: calc(100% - 60px);
+    top: 50px;
+}
